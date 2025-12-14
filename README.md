@@ -59,3 +59,4 @@ By default the robot will try to follow the topomap to reach the last image capt
 #### NOTE
 Depending on way this project is setup on local - WSL / Vbox / Native Ubuntu, please use respective packages (check ros2 documentation) for visualization.
 for 22.04 bare metal, ros-humble-ros-ign-bridge is needed as a bridge package and ign gazebo for smooth visualization.
+https://docs.ros.org/en/humble/Tutorials/Advanced/Simulators/Gazebo/Gazebo.html
