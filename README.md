@@ -55,3 +55,7 @@ Having created a topomap of the environment, you can now run the navigation scri
 python src/visualnav_transformer/deployment/src/navigate.py
 ```
 By default the robot will try to follow the topomap to reach the last image captured. You can specify a different goal image by providing an index of an image in the topomap using the `--goal-node` parameter.
+
+#### NOTE
+Depending on way this project is setup on local - WSL / Vbox / Native Ubuntu, please use respective packages (check ros2 documentation) for visualization.
+for 22.04 bare metal, ros-humble-ros-ign-bridge is needed as a bridge package and ign gazebo for smooth visualization.
